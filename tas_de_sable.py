@@ -1,5 +1,5 @@
 #########################################
-# groupe Licence Mathématiques-Informatique 
+# groupe Licence Mathématiques-Informatique
 # Hugo TIERES
 # Nour BCHIBCHI
 # Aomar TEBIB
@@ -8,12 +8,13 @@
 
 import tkinter as tk
 
-terrain= tk.Tk()
+terrain = tk.Tk()
 terrain.title("tas de sable")
-canvas = tk.Canvas(terrain, bg="black", height=600 , width=600, borderwidth=0 )
+canvas = tk.Canvas(terrain, bg="black", height=600, width=600, borderwidth=0)
 canvas.grid(row=0, column=0)
 
 
 terrain.mainloop()
 
-L=[1,2,3]
+L = [1, 2, 3]
+print("test")
